@@ -1,3 +1,4 @@
+Ejercicio realizado por gonzalo campderros
 class Cubo:
     """
     crear la clase cubo con los atributos ancho, alto y profundidad con
