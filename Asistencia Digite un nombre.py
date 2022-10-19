@@ -34,4 +34,4 @@ pago_sin_impuesto = float(input("digite el pago sin impuestos: "))
 impuesto = float(input("Digite el monto del impuesto a apgar: "))
 pago_con_inpuesto = calcular_total_pago (pago_sin_impuesto, impuesto)
 
-print("El pago con impuesto es de ; {pago_con_impuesto}")
+print(f"El pago con impuesto es de ; {pago_con_impuesto}")
