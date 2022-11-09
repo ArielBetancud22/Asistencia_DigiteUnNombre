@@ -76,6 +76,6 @@ print(rectangulo1)
 var nombre = "Juan";
 var apellido = "Eztala";
 var nombreCompleto =  nombre+" "+apellido;
-console.log(nombreCOmpleto);
+console.log(nombreCompleto);
 var nombreCompleto2 = "Juan"+" "+"Eztala";
 console.log(nombreCompleto2); 
