@@ -71,3 +71,11 @@ rectangulo1 = Rectangulo(3, 6, 'Verde')
 print(f'Cálculo del área del rectángulo: {rectangulo1.calcular_area()}')
 print(rectangulo1)
 
+#Ejercicio realizado por Juan Manuel Eztala
+
+var nombre = "Juan";
+var apellido = "Eztala";
+var nombreCompleto =  nombre+" "+apellido;
+console.log(nombreCOmpleto);
+var nombreCompleto2 = "Juan"+" "+"Eztala";
+console.log(nombreCompleto2); 
