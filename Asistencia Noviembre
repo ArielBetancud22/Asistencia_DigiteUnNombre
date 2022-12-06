@@ -1,2 +1,49 @@
 Ejercicios de Py del grupo digite un nombre
 #Agregar ejercicios aqui
+
+
+JURCZYSZYN MARIA CAROLINA
+
+class Empleado:
+    def __init__(self, nombre, sueldo):
+        self.nombre = nombre
+        self.sueldo = sueldo
+
+    def __str__(self):
+        return f'Empleado: [Nombre: {self.nombre}, sueldo $ {self.sueldo}]'
+
+    def mostrar_detalles(self):
+        return self.__str__()
+        
+        
+        from Empleado import Empleado
+
+
+class Gerente(Empleado):
+
+    def __init__(self, nombre, sueldo, departamento):
+        super().__init__(nombre, sueldo)
+        self.departamento = departamento
+
+    def __str__(self):
+        return f'Gerente: [Departamento: {self.departamento}] {super().__str__()}'
+
+from Empleado import Empleado
+from Gerente import Gerente
+
+
+def imprimir_detalles(objeto):
+    print(objeto)
+    print(type(objeto))
+    print(objeto.mostrar_detalles())
+    if isinstance(objeto, Gerente):
+        print(objeto.departamento)
+
+
+empleado = Empleado('Carlos', 22000)
+imprimir_detalles(empleado)
+
+gerente = Gerente('Olga', 100000, 'Administración')
+imprimir_detalles(gerente)
+
+
