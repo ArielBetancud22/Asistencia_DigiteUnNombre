@@ -46,4 +46,14 @@ imprimir_detalles(empleado)
 gerente = Gerente('Olga', 100000, 'Administración')
 imprimir_detalles(gerente)
 
+Ejercicio realizado por Luciano Diaz
+#Ejercicio 2 Funcion con args * para multiplicar
+#Crear una funcion para multiplicar los valores recibidos de tipo numerico utilziando argumentos variables *args como parametro y regresar como resultado la multiplicacion de todos los valores como argumentos
 
+def multiplicar_valores(*numeros):
+resultado = 1 # va 1 por que 0 no multiplica
+for numero in numeros:
+resultado * = numero
+retur resultado
+
+print(multiplicar_valores(3, 5, 15)) #De este manera le pasamos los argumentos
