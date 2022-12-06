@@ -2,7 +2,7 @@ Ejercicios de Py del grupo digite un nombre
 #Agregar ejercicios aqui
 
 
-JURCZYSZYN MARIA CAROLINA
+# Ejercicio Clase POO lección 13 genernte-empleado POR JURCZYSZYN MARIA CAROLINA
 
 class Empleado:
     def __init__(self, nombre, sueldo):
