@@ -1,6 +1,7 @@
 Ejercicios de Py del grupo digite un nombre
 #Agregar ejercicios aqui
 
+#############################################################
 
 # Ejercicio Clase POO lección 13 genernte-empleado POR JURCZYSZYN MARIA CAROLINA
 
@@ -46,6 +47,8 @@ imprimir_detalles(empleado)
 gerente = Gerente('Olga', 100000, 'Administración')
 imprimir_detalles(gerente)
 
+#############################################################
+
 Ejercicio realizado por Luciano Diaz
 #Ejercicio 2 Funcion con args * para multiplicar
 #Crear una funcion para multiplicar los valores recibidos de tipo numerico utilziando argumentos variables *args como parametro y regresar como resultado la multiplicacion de todos los valores como argumentos
@@ -57,3 +60,42 @@ resultado * = numero
 retur resultado
 
 print(multiplicar_valores(3, 5, 15)) #De este manera le pasamos los argumentos
+
+#############################################################
+
+Ejercicio Realizado Por Gonzalo Campderros
+
+class FiguraGeometrica:
+    def __init__(self, ancho, alto):
+        self.ancho = ancho
+        self.alto = alto
+ 
+class Color:
+   def __init__(self, Color):
+       self.color = Color
+from color import Color
+from test import FiguraGeometrica
+
+
+class Cuadrado(FiguraGeometrica, Color):
+    def __init__(self, lado, color):
+        # super.__init__(lado)
+        # como realmnete se hace en herencia multiple
+        FiguraGeometrica.__init__(self, lado, lado)
+        Color.__init__(self, color)
+
+    def calcular_area(self):
+        return self.alto * self.ancho
+        
+from Cuadrado import Cuadrado
+
+cuadrado1= Cuadrado(5, "azul")
+print(cuadrado1.ancho)
+print(cuadrado1.alto)
+print(f"caculo del are del cuadrado: {cuadrado1.calcular_area()}")
+        
+
+ 
+
+ 
+
