@@ -148,7 +148,7 @@ public class principal {
 
 	// 4 subproceso en el cual se muestra los pacientes con plan y los que no necesitan plan Nutricional
 	// parametos
-	public static void totalesplan(String plannutricional, String sinplannutricional) {
+	public static void totalesplan(int plannutricional, int sinplannutricional) {
 		System.out.println("el total de pacientes con plan son: "+plannutricional);
 		System.out.println("");
 		System.out.println("el total de pacientes que no necesitan un plan son: "+sinplannutricional);
